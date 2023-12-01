@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.bg {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.innerbg {
+  height: 300px;
+  width: 300px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  font-family: 'Roboto';
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+.heading {
+  color: white;
+  font-weight: bold;
+}
+.button {
+  background-color: white;
+  color: #303150;
+  padding: 8px;
+  text-align: center;
+}
